@@ -6,9 +6,6 @@ if __name__ == "__main__":
     repo_name   = "swift"
     url = f"https://api.github.com/search/issues?q=repo:{repo_owner}/{repo_name}+state:open"
 
-    print(url)
-
-
     req = urllib.request.Request(url, headers=headers)
 
     with urllib.request.urlopen(req) as url:
@@ -17,7 +14,10 @@ if __name__ == "__main__":
     tasks = []
 
     for row in data:
-        print(row)
+        tasks.append(row)
+
+    with open("tasks.json", "w") as outfile:
+        json.dump(tasks, outfile, indent=4)
 
 
     
