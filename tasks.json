@@ -1,0 +1,52 @@
+{
+    "tasks" : [
+        {
+            "title": "[Standard Library] [16-bit] StringObject not compiling on 16 bit platforms",
+            "tags": [
+                "bug",
+                "embedded",
+                "platform support",
+                "standard library",
+                "swift 6.0",
+                "unexpected error"
+            ]
+        },
+        {
+            "title": "",
+            "tags": [
+                "actor isolation",
+                "actor",
+                "bug",
+                "compiler",
+                "concurrency",
+                "SIL",
+                "swift 6.0"
+            ]
+        },
+        {
+            "title": "Swift 6 compilation performance regression",
+            "tags": [
+                "bug",
+                "performance",
+                "type checker"
+            ]
+        },
+        {
+            "title": "ClangImporter looks in the wrong path for the libc and new C++ module maps when -sdk is specified",
+            "tags": [
+                "bug",
+                "c++ interop",
+                "clang importer"
+            ]
+        },
+        {
+            "title": "The Swift compiler on linux is built with an older stdlib then runs with the newer shipped stdlib",
+            "tags": [
+                "bootstrapping",
+                "bug",
+                "build-script",
+                "Linux"
+            ]
+        }
+    ]
+}
